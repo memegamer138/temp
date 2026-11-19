@@ -1,0 +1,30 @@
+User alice
+INPUT
+179 bytes; SHA-256 85d73572b25b28d0e105bb21027f7da92ba7157efc1879e7a5c9f5431d5ddcab
+mkfile /personal/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb rejected
+mkdir /personal/ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+exit
+
+
+Elapsed 0.006 seconds
+Exit code 0
+
+STDOUT
+180 bytes; SHA-256 dcfd68f0ac5169d95dfd2278ee707f27fabbacfb1766fcd1e559545fac22ade2
+Logged in as alice
+Available commands
+cd <directory>
+pwd
+ls
+cat <filename>
+mkdir <directory_name>
+mkfile <filename> <contents>
+share <filename> <username>
+exit
+Forbidden
+Forbidden
+
+
+STDERR
+0 bytes; SHA-256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+

@@ -1,0 +1,626 @@
+User alice
+INPUT
+9905 bytes; SHA-256 bf2e1833746b6d6f775bd5eec0bab2b63034f571cb64ca099998aa120bcf5da3
+cat /personal/spam/file_0000.txt
+cat /personal/spam/file_0001.txt
+cat /personal/spam/file_0002.txt
+cat /personal/spam/file_0003.txt
+cat /personal/spam/file_0004.txt
+cat /personal/spam/file_0005.txt
+cat /personal/spam/file_0006.txt
+cat /personal/spam/file_0007.txt
+cat /personal/spam/file_0008.txt
+cat /personal/spam/file_0009.txt
+cat /personal/spam/file_0010.txt
+cat /personal/spam/file_0011.txt
+cat /personal/spam/file_0012.txt
+cat /personal/spam/file_0013.txt
+cat /personal/spam/file_0014.txt
+cat /personal/spam/file_0015.txt
+cat /personal/spam/file_0016.txt
+cat /personal/spam/file_0017.txt
+cat /personal/spam/file_0018.txt
+cat /personal/spam/file_0019.txt
+cat /personal/spam/file_0020.txt
+cat /personal/spam/file_0021.txt
+cat /personal/spam/file_0022.txt
+cat /personal/spam/file_0023.txt
+cat /personal/spam/file_0024.txt
+cat /personal/spam/file_0025.txt
+cat /personal/spam/file_0026.txt
+cat /personal/spam/file_0027.txt
+cat /personal/spam/file_0028.txt
+cat /personal/spam/file_0029.txt
+cat /personal/spam/file_0030.txt
+cat /personal/spam/file_0031.txt
+cat /personal/spam/file_0032.txt
+cat /personal/spam/file_0033.txt
+cat /personal/spam/file_0034.txt
+cat /personal/spam/file_0035.txt
+cat /personal/spam/file_0036.txt
+cat /personal/spam/file_0037.txt
+cat /personal/spam/file_0038.txt
+cat /personal/spam/file_0039.txt
+cat /personal/spam/file_0040.txt
+cat /personal/spam/file_0041.txt
+cat /personal/spam/file_0042.txt
+cat /personal/spam/file_0043.txt
+cat /personal/spam/file_0044.txt
+cat /personal/spam/file_0045.txt
+cat /personal/spam/file_0046.txt
+cat /personal/spam/file_0047.txt
+cat /personal/spam/file_0048.txt
+cat /personal/spam/file_0049.txt
+cat /personal/spam/file_0050.txt
+cat /personal/spam/file_0051.txt
+cat /personal/spam/file_0052.txt
+cat /personal/spam/file_0053.txt
+cat /personal/spam/file_0054.txt
+cat /personal/spam/file_0055.txt
+cat /personal/spam/file_0056.txt
+cat /personal/spam/file_0057.txt
+cat /personal/spam/file_0058.txt
+cat /personal/spam/file_0059.txt
+cat /personal/spam/file_0060.txt
+cat /personal/spam/file_0061.txt
+cat /personal/spam/file_0062.txt
+cat /personal/spam/file_0063.txt
+cat /personal/spam/file_0064.txt
+cat /personal/spam/file_0065.txt
+cat /personal/spam/file_0066.txt
+cat /personal/spam/file_0067.txt
+cat /personal/spam/file_0068.txt
+cat /personal/spam/file_0069.txt
+cat /personal/spam/file_0070.txt
+cat /personal/spam/file_0071.txt
+cat /personal/spam/file_0072.txt
+cat /personal/spam/file_0073.txt
+cat /personal/spam/file_0074.txt
+cat /personal/spam/file_0075.txt
+cat /personal/spam/file_0076.txt
+cat /personal/spam/file_0077.txt
+cat /personal/spam/file_0078.txt
+cat /personal/spam/file_0079.txt
+cat /personal/spam/file_0080.txt
+cat /personal/spam/file_0081.txt
+cat /personal/spam/file_0082.txt
+cat /personal/spam/file_0083.txt
+cat /personal/spam/file_0084.txt
+cat /personal/spam/file_0085.txt
+cat /personal/spam/file_0086.txt
+cat /personal/spam/file_0087.txt
+cat /personal/spam/file_0088.txt
+cat /personal/spam/file_0089.txt
+cat /personal/spam/file_0090.txt
+cat /personal/spam/file_0091.txt
+cat /personal/spam/file_0092.txt
+cat /personal/spam/file_0093.txt
+cat /personal/spam/file_0094.txt
+cat /personal/spam/file_0095.txt
+cat /personal/spam/file_0096.txt
+cat /personal/spam/file_0097.txt
+cat /personal/spam/file_0098.txt
+cat /personal/spam/file_0099.txt
+cat /personal/spam/file_0100.txt
+cat /personal/spam/file_0101.txt
+cat /personal/spam/file_0102.txt
+cat /personal/spam/file_0103.txt
+cat /personal/spam/file_0104.txt
+cat /personal/spam/file_0105.txt
+cat /personal/spam/file_0106.txt
+cat /personal/spam/file_0107.txt
+cat /personal/spam/file_0108.txt
+cat /personal/spam/file_0109.txt
+cat /personal/spam/file_0110.txt
+cat /personal/spam/file_0111.txt
+cat /personal/spam/file_0112.txt
+cat /personal/spam/file_0113.txt
+cat /personal/spam/file_0114.txt
+cat /personal/spam/file_0115.txt
+cat /personal/spam/file_0116.txt
+cat /personal/spam/file_0117.txt
+cat /personal/spam/file_0118.txt
+cat /personal/spam/file_0119.txt
+cat /personal/spam/file_0120.txt
+cat /personal/spam/file_0121.txt
+cat /personal/spam/file_0122.txt
+cat /personal/spam/file_0123.txt
+cat /personal/spam/file_0124.txt
+cat /personal/spam/file_0125.txt
+cat /personal/spam/file_0126.txt
+cat /personal/spam/file_0127.txt
+cat /personal/spam/file_0128.txt
+cat /personal/spam/file_0129.txt
+cat /personal/spam/file_0130.txt
+cat /personal/spam/file_0131.txt
+cat /personal/spam/file_0132.txt
+cat /personal/spam/file_0133.txt
+cat /personal/spam/file_0134.txt
+cat /personal/spam/file_0135.txt
+cat /personal/spam/file_0136.txt
+cat /personal/spam/file_0137.txt
+cat /personal/spam/file_0138.txt
+cat /personal/spam/file_0139.txt
+cat /personal/spam/file_0140.txt
+cat /personal/spam/file_0141.txt
+cat /personal/spam/file_0142.txt
+cat /personal/spam/file_0143.txt
+cat /personal/spam/file_0144.txt
+cat /personal/spam/file_0145.txt
+cat /personal/spam/file_0146.txt
+cat /personal/spam/file_0147.txt
+cat /personal/spam/file_0148.txt
+cat /personal/spam/file_0149.txt
+cat /personal/spam/file_0150.txt
+cat /personal/spam/file_0151.txt
+cat /personal/spam/file_0152.txt
+cat /personal/spam/file_0153.txt
+cat /personal/spam/file_0154.txt
+cat /personal/spam/file_0155.txt
+cat /personal/spam/file_0156.txt
+cat /personal/spam/file_0157.txt
+cat /personal/spam/file_0158.txt
+cat /personal/spam/file_0159.txt
+cat /personal/spam/file_0160.txt
+cat /personal/spam/file_0161.txt
+cat /personal/spam/file_0162.txt
+cat /personal/spam/file_0163.txt
+cat /personal/spam/file_0164.txt
+cat /personal/spam/file_0165.txt
+cat /personal/spam/file_0166.txt
+cat /personal/spam/file_0167.txt
+cat /personal/spam/file_0168.txt
+cat /personal/spam/file_0169.txt
+cat /personal/spam/file_0170.txt
+cat /personal/spam/file_0171.txt
+cat /personal/spam/file_0172.txt
+cat /personal/spam/file_0173.txt
+cat /personal/spam/file_0174.txt
+cat /personal/spam/file_0175.txt
+cat /personal/spam/file_0176.txt
+cat /personal/spam/file_0177.txt
+cat /personal/spam/file_0178.txt
+cat /personal/spam/file_0179.txt
+cat /personal/spam/file_0180.txt
+cat /personal/spam/file_0181.txt
+cat /personal/spam/file_0182.txt
+cat /personal/spam/file_0183.txt
+cat /personal/spam/file_0184.txt
+cat /personal/spam/file_0185.txt
+cat /personal/spam/file_0186.txt
+cat /personal/spam/file_0187.txt
+cat /personal/spam/file_0188.txt
+cat /personal/spam/file_0189.txt
+cat /personal/spam/file_0190.txt
+cat /personal/spam/file_0191.txt
+cat /personal/spam/file_0192.txt
+cat /personal/spam/file_0193.txt
+cat /personal/spam/file_0194.txt
+cat /personal/spam/file_0195.txt
+cat /personal/spam/file_0196.txt
+cat /personal/spam/file_0197.txt
+cat /personal/spam/file_0198.txt
+cat /personal/spam/file_0199.txt
+cat /personal/spam/file_0200.txt
+cat /personal/spam/file_0201.txt
+cat /personal/spam/file_0202.txt
+cat /personal/spam/file_0203.txt
+cat /personal/spam/file_0204.txt
+cat /personal/spam/file_0205.txt
+cat /personal/spam/file_0206.txt
+cat /personal/spam/file_0207.txt
+cat /personal/spam/file_0208.txt
+cat /personal/spam/file_0209.txt
+cat /personal/spam/file_0210.txt
+cat /personal/spam/file_0211.txt
+cat /personal/spam/file_0212.txt
+cat /personal/spam/file_0213.txt
+cat /personal/spam/file_0214.txt
+cat /personal/spam/file_0215.txt
+cat /personal/spam/file_0216.txt
+cat /personal/spam/file_0217.txt
+cat /personal/spam/file_0218.txt
+cat /personal/spam/file_0219.txt
+cat /personal/spam/file_0220.txt
+cat /personal/spam/file_0221.txt
+cat /personal/spam/file_0222.txt
+cat /personal/spam/file_0223.txt
+cat /personal/spam/file_0224.txt
+cat /personal/spam/file_0225.txt
+cat /personal/spam/file_0226.txt
+cat /personal/spam/file_0227.txt
+cat /personal/spam/file_0228.txt
+cat /personal/spam/file_0229.txt
+cat /personal/spam/file_0230.txt
+cat /personal/spam/file_0231.txt
+cat /personal/spam/file_0232.txt
+cat /personal/spam/file_0233.txt
+cat /personal/spam/file_0234.txt
+cat /personal/spam/file_0235.txt
+cat /personal/spam/file_0236.txt
+cat /personal/spam/file_0237.txt
+cat /personal/spam/file_0238.txt
+cat /personal/spam/file_0239.txt
+cat /personal/spam/file_0240.txt
+cat /personal/spam/file_0241.txt
+cat /personal/spam/file_0242.txt
+cat /personal/spam/file_0243.txt
+cat /personal/spam/file_0244.txt
+cat /personal/spam/file_0245.txt
+cat /personal/spam/file_0246.txt
+cat /personal/spam/file_0247.txt
+cat /personal/spam/file_0248.txt
+cat /personal/spam/file_0249.txt
+cat /personal/spam/file_0250.txt
+cat /personal/spam/file_0251.txt
+cat /personal/spam/file_0252.txt
+cat /personal/spam/file_0253.txt
+cat /personal/spam/file_0254.txt
+cat /personal/spam/file_0255.txt
+cat /personal/spam/file_0256.txt
+cat /personal/spam/file_0257.txt
+cat /personal/spam/file_0258.txt
+cat /personal/spam/file_0259.txt
+cat /personal/spam/file_0260.txt
+cat /personal/spam/file_0261.txt
+cat /personal/spam/file_0262.txt
+cat /personal/spam/file_0263.txt
+cat /personal/spam/file_0264.txt
+cat /personal/spam/file_0265.txt
+cat /personal/spam/file_0266.txt
+cat /personal/spam/file_0267.txt
+cat /personal/spam/file_0268.txt
+cat /personal/spam/file_0269.txt
+cat /personal/spam/file_0270.txt
+cat /personal/spam/file_0271.txt
+cat /personal/spam/file_0272.txt
+cat /personal/spam/file_0273.txt
+cat /personal/spam/file_0274.txt
+cat /personal/spam/file_0275.txt
+cat /personal/spam/file_0276.txt
+cat /personal/spam/file_0277.txt
+cat /personal/spam/file_0278.txt
+cat /personal/spam/file_0279.txt
+cat /personal/spam/file_0280.txt
+cat /personal/spam/file_0281.txt
+cat /personal/spam/file_0282.txt
+cat /personal/spam/file_0283.txt
+cat /personal/spam/file_0284.txt
+cat /personal/spam/file_0285.txt
+cat /personal/spam/file_0286.txt
+cat /personal/spam/file_0287.txt
+cat /personal/spam/file_0288.txt
+cat /personal/spam/file_0289.txt
+cat /personal/spam/file_0290.txt
+cat /personal/spam/file_0291.txt
+cat /personal/spam/file_0292.txt
+cat /personal/spam/file_0293.txt
+cat /personal/spam/file_0294.txt
+cat /personal/spam/file_0295.txt
+cat /personal/spam/file_0296.txt
+cat /personal/spam/file_0297.txt
+cat /personal/spam/file_0298.txt
+cat /personal/spam/file_0299.txt
+exit
+
+
+Elapsed 6.422 seconds
+Exit code 0
+
+STDOUT
+3950 bytes; SHA-256 5c5643584751acb711b4196b27bfca2524a0f472c93691b005d21122e5913cbb
+Logged in as alice
+Available commands
+cd <directory>
+pwd
+ls
+cat <filename>
+mkdir <directory_name>
+mkfile <filename> <contents>
+share <filename> <username>
+exit
+contents-0
+contents-1
+contents-2
+contents-3
+contents-4
+contents-5
+contents-6
+contents-7
+contents-8
+contents-9
+contents-10
+contents-11
+contents-12
+contents-13
+contents-14
+contents-15
+contents-16
+contents-17
+contents-18
+contents-19
+contents-20
+contents-21
+contents-22
+contents-23
+contents-24
+contents-25
+contents-26
+contents-27
+contents-28
+contents-29
+contents-30
+contents-31
+contents-32
+contents-33
+contents-34
+contents-35
+contents-36
+contents-37
+contents-38
+contents-39
+contents-40
+contents-41
+contents-42
+contents-43
+contents-44
+contents-45
+contents-46
+contents-47
+contents-48
+contents-49
+contents-50
+contents-51
+contents-52
+contents-53
+contents-54
+contents-55
+contents-56
+contents-57
+contents-58
+contents-59
+contents-60
+contents-61
+contents-62
+contents-63
+contents-64
+contents-65
+contents-66
+contents-67
+contents-68
+contents-69
+contents-70
+contents-71
+contents-72
+contents-73
+contents-74
+contents-75
+contents-76
+contents-77
+contents-78
+contents-79
+contents-80
+contents-81
+contents-82
+contents-83
+contents-84
+contents-85
+contents-86
+contents-87
+contents-88
+contents-89
+contents-90
+contents-91
+contents-92
+contents-93
+contents-94
+contents-95
+contents-96
+contents-97
+contents-98
+contents-99
+contents-100
+contents-101
+contents-102
+contents-103
+contents-104
+contents-105
+contents-106
+contents-107
+contents-108
+contents-109
+contents-110
+contents-111
+contents-112
+contents-113
+contents-114
+contents-115
+contents-116
+contents-117
+contents-118
+contents-119
+contents-120
+contents-121
+contents-122
+contents-123
+contents-124
+contents-125
+contents-126
+contents-127
+contents-128
+contents-129
+contents-130
+contents-131
+contents-132
+contents-133
+contents-134
+contents-135
+contents-136
+contents-137
+contents-138
+contents-139
+contents-140
+contents-141
+contents-142
+contents-143
+contents-144
+contents-145
+contents-146
+contents-147
+contents-148
+contents-149
+contents-150
+contents-151
+contents-152
+contents-153
+contents-154
+contents-155
+contents-156
+contents-157
+contents-158
+contents-159
+contents-160
+contents-161
+contents-162
+contents-163
+contents-164
+contents-165
+contents-166
+contents-167
+contents-168
+contents-169
+contents-170
+contents-171
+contents-172
+contents-173
+contents-174
+contents-175
+contents-176
+contents-177
+contents-178
+contents-179
+contents-180
+contents-181
+contents-182
+contents-183
+contents-184
+contents-185
+contents-186
+contents-187
+contents-188
+contents-189
+contents-190
+contents-191
+contents-192
+contents-193
+contents-194
+contents-195
+contents-196
+contents-197
+contents-198
+contents-199
+contents-200
+contents-201
+contents-202
+contents-203
+contents-204
+contents-205
+contents-206
+contents-207
+contents-208
+contents-209
+contents-210
+contents-211
+contents-212
+contents-213
+contents-214
+contents-215
+contents-216
+contents-217
+contents-218
+contents-219
+contents-220
+contents-221
+contents-222
+contents-223
+contents-224
+contents-225
+contents-226
+contents-227
+contents-228
+contents-229
+contents-230
+contents-231
+contents-232
+contents-233
+contents-234
+contents-235
+contents-236
+contents-237
+contents-238
+contents-239
+contents-240
+contents-241
+contents-242
+contents-243
+contents-244
+contents-245
+contents-246
+contents-247
+contents-248
+contents-249
+contents-250
+contents-251
+contents-252
+contents-253
+contents-254
+contents-255
+contents-256
+contents-257
+contents-258
+contents-259
+contents-260
+contents-261
+contents-262
+contents-263
+contents-264
+contents-265
+contents-266
+contents-267
+contents-268
+contents-269
+contents-270
+contents-271
+contents-272
+contents-273
+contents-274
+contents-275
+contents-276
+contents-277
+contents-278
+contents-279
+contents-280
+contents-281
+contents-282
+contents-283
+contents-284
+contents-285
+contents-286
+contents-287
+contents-288
+contents-289
+contents-290
+contents-291
+contents-292
+contents-293
+contents-294
+contents-295
+contents-296
+contents-297
+contents-298
+contents-299
+
+
+STDERR
+0 bytes; SHA-256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+

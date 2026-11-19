@@ -1,0 +1,124 @@
+{
+  "environment": {
+    "source_commit": "ec8d571d1d7b95becd7ee086284444a7b8cc2276",
+    "started_utc": "2026-11-09T19:51:10.183425+00:00",
+    "os": "Ubuntu 24.04.5 LTS",
+    "kernel": "6.6.87.2-microsoft-standard-WSL2",
+    "python": "3.12.3",
+    "test_script_sha256": "4a05de1dde205f1f4eb892e874425d2720e896fe8e2afb40fcdad8abc4886561",
+    "binary_sha256": "fbbaf31b4a44a09d6679dddd1a1d78fb35a0fd490f5df5a4fac77e39d430e889",
+    "finished_utc": "2026-11-09T19:52:06.629061+00:00"
+  },
+  "passed": true,
+  "results": [
+    {
+      "name": "build",
+      "command": [
+        "make",
+        "-j2"
+      ],
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 4.14
+    },
+    {
+      "name": "automated-tests",
+      "command": [
+        "make",
+        "test"
+      ],
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 20.814
+    },
+    {
+      "name": "static-binary",
+      "command": [
+        "readelf",
+        "-d",
+        "fileserver"
+      ],
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 0.006
+    },
+    {
+      "name": "test_concurrent_writers",
+      "passed": true,
+      "seconds": 4.837,
+      "metrics": {
+        "concurrent_processes": 4,
+        "unique_files_verified": 100,
+        "writes_to_shared_file": 40,
+        "final_shared_contents": "writer-3-update-9"
+      },
+      "failures": []
+    },
+    {
+      "name": "test_file_size_boundary",
+      "passed": true,
+      "seconds": 0.264,
+      "metrics": {
+        "accepted_bytes": 1048576,
+        "rejected_bytes": 1048577,
+        "index_preserved_on_rejection": true
+      },
+      "failures": []
+    },
+    {
+      "name": "test_file_spam",
+      "passed": true,
+      "seconds": 19.914,
+      "metrics": {
+        "files_created_and_verified": 300,
+        "other_user_read": "passed"
+      },
+      "failures": []
+    },
+    {
+      "name": "test_invalid_command_spam",
+      "passed": true,
+      "seconds": 0.158,
+      "metrics": {
+        "invalid_commands": 500,
+        "subsequent_valid_commands": "passed",
+        "index_preserved": true
+      },
+      "failures": []
+    },
+    {
+      "name": "test_name_length_boundary",
+      "passed": true,
+      "seconds": 0.194,
+      "metrics": {
+        "accepted_name_length": 64,
+        "rejected_name_length": 65
+      },
+      "failures": []
+    },
+    {
+      "name": "test_repeated_overwrite",
+      "passed": true,
+      "seconds": 7.421,
+      "metrics": {
+        "overwrites": 500,
+        "latest_version": 499,
+        "blobs_before": 1,
+        "blobs_after": 1
+      },
+      "failures": []
+    },
+    {
+      "name": "test_repeated_share",
+      "passed": true,
+      "seconds": 0.329,
+      "metrics": {
+        "repeated_shares": 500,
+        "index_before_and_after_sha256": "c6ecbf1ab3a561ee8dcf7aa6bcb1e604e20f92605fdf826d0db2e4da5533b1ef",
+        "shared_entries": 1,
+        "blob_count": 1
+      },
+      "failures": []
+    }
+  ]
+}

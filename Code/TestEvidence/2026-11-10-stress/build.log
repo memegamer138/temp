@@ -1,0 +1,14 @@
+g++ -ICode -ICode/third_party -std=c++17 -Wall -Wextra -Wpedantic -Werror -MMD -MP -c Code/main.cpp -o .build/main.o
+g++ -ICode -ICode/third_party -std=c++17 -Wall -Wextra -Wpedantic -Werror -MMD -MP -c Code/accounts.cpp -o .build/accounts.o
+g++ -ICode -ICode/third_party -std=c++17 -Wall -Wextra -Wpedantic -Werror -MMD -MP -c Code/command_shell.cpp -o .build/command_shell.o
+g++ -ICode -ICode/third_party -std=c++17 -Wall -Wextra -Wpedantic -Werror -MMD -MP -c Code/crypto_store.cpp -o .build/crypto_store.o
+g++ -ICode -ICode/third_party -std=c++17 -Wall -Wextra -Wpedantic -Werror -MMD -MP -c Code/fs_schema.cpp -o .build/fs_schema.o
+g++ -ICode -ICode/third_party -std=c++17 -Wall -Wextra -Wpedantic -Werror -MMD -MP -c Code/storage.cpp -o .build/storage.o
+g++ -ICode -ICode/third_party -std=c++17 -Wall -Wextra -Wpedantic -Werror -MMD -MP -c Code/vfs.cpp -o .build/vfs.o
+g++ -static .build/main.o .build/accounts.o .build/command_shell.o .build/crypto_store.o .build/fs_schema.o .build/storage.o .build/vfs.o -lcrypto -ldl -pthread -o fileserver
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libcrypto.a(libcrypto-lib-dso_dlfcn.o): in function `dlfcn_globallookup':
+(.text+0x1f): warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libcrypto.a(libcrypto-lib-bio_addr.o): in function `BIO_lookup_ex':
+(.text+0xdbc): warning: Using 'getaddrinfo' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libcrypto.a(libcrypto-lib-bio_sock.o): in function `BIO_gethostbyname':
+(.text+0x85): warning: Using 'gethostbyname' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking

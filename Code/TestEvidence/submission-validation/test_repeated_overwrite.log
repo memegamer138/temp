@@ -1,0 +1,6 @@
+test_repeated_overwrite (__main__.StressTests.test_repeated_overwrite) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 8.173s
+
+OK

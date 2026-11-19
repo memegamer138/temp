@@ -1,0 +1,28 @@
+User bob
+INPUT
+26 bytes; SHA-256 4d3ae5eb5ba1fce9c19a44b2cb1a85eb2a3dd562bca01615dfae6cc7f450e78b
+cat /shared/keep.txt
+exit
+
+
+Elapsed 0.014 seconds
+Exit code 0
+
+STDOUT
+176 bytes; SHA-256 2ba1555b761a578aa867c512f61f07763a9b7c0608ce116f9e3f04b8c39f71d0
+Logged in as bob
+Available commands
+cd <directory>
+pwd
+ls
+cat <filename>
+mkdir <directory_name>
+mkfile <filename> <contents>
+share <filename> <username>
+exit
+writer-3-update-9
+
+
+STDERR
+0 bytes; SHA-256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+

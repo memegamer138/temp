@@ -1,0 +1,61 @@
+User alice
+INPUT
+1860 bytes; SHA-256 9f2e950ffc53163c74400381f9e055080807ce4f47e2eddd9c438170740d270f
+mkfile /personal/concurrent/w1_000.txt worker-1-value-0
+mkfile /personal/concurrent/w1_001.txt worker-1-value-1
+mkfile /personal/concurrent/w1_002.txt worker-1-value-2
+mkfile /personal/concurrent/w1_003.txt worker-1-value-3
+mkfile /personal/concurrent/w1_004.txt worker-1-value-4
+mkfile /personal/concurrent/w1_005.txt worker-1-value-5
+mkfile /personal/concurrent/w1_006.txt worker-1-value-6
+mkfile /personal/concurrent/w1_007.txt worker-1-value-7
+mkfile /personal/concurrent/w1_008.txt worker-1-value-8
+mkfile /personal/concurrent/w1_009.txt worker-1-value-9
+mkfile /personal/concurrent/w1_010.txt worker-1-value-10
+mkfile /personal/concurrent/w1_011.txt worker-1-value-11
+mkfile /personal/concurrent/w1_012.txt worker-1-value-12
+mkfile /personal/concurrent/w1_013.txt worker-1-value-13
+mkfile /personal/concurrent/w1_014.txt worker-1-value-14
+mkfile /personal/concurrent/w1_015.txt worker-1-value-15
+mkfile /personal/concurrent/w1_016.txt worker-1-value-16
+mkfile /personal/concurrent/w1_017.txt worker-1-value-17
+mkfile /personal/concurrent/w1_018.txt worker-1-value-18
+mkfile /personal/concurrent/w1_019.txt worker-1-value-19
+mkfile /personal/concurrent/w1_020.txt worker-1-value-20
+mkfile /personal/concurrent/w1_021.txt worker-1-value-21
+mkfile /personal/concurrent/w1_022.txt worker-1-value-22
+mkfile /personal/concurrent/w1_023.txt worker-1-value-23
+mkfile /personal/concurrent/w1_024.txt worker-1-value-24
+mkfile /personal/keep.txt writer-1-update-0
+mkfile /personal/keep.txt writer-1-update-1
+mkfile /personal/keep.txt writer-1-update-2
+mkfile /personal/keep.txt writer-1-update-3
+mkfile /personal/keep.txt writer-1-update-4
+mkfile /personal/keep.txt writer-1-update-5
+mkfile /personal/keep.txt writer-1-update-6
+mkfile /personal/keep.txt writer-1-update-7
+mkfile /personal/keep.txt writer-1-update-8
+mkfile /personal/keep.txt writer-1-update-9
+exit
+
+
+Elapsed 3.988 seconds
+Exit code 0
+
+STDOUT
+160 bytes; SHA-256 69d29e9721c66743b42c393d90c63f6e53b8858fdadef12092eb3bc842036d0b
+Logged in as alice
+Available commands
+cd <directory>
+pwd
+ls
+cat <filename>
+mkdir <directory_name>
+mkfile <filename> <contents>
+share <filename> <username>
+exit
+
+
+STDERR
+0 bytes; SHA-256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+

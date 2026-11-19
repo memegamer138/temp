@@ -1,0 +1,31 @@
+User alice
+INPUT
+166 bytes; SHA-256 c488bb2af4fa336feb03fe02e57e85c06e03c609a6d29b2b39a8dc755b2fd3ca
+cat /personal/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+cd /personal/cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+pwd
+exit
+
+
+Elapsed 0.006 seconds
+Exit code 0
+
+STDOUT
+246 bytes; SHA-256 dc3fdb12c103dafee921b71f7602665b251a030317bea776c5d8f3dc7e046c4e
+Logged in as alice
+Available commands
+cd <directory>
+pwd
+ls
+cat <filename>
+mkdir <directory_name>
+mkfile <filename> <contents>
+share <filename> <username>
+exit
+valid-name
+/personal/cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+
+STDERR
+0 bytes; SHA-256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+

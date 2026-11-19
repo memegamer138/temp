@@ -1,0 +1,6 @@
+test_concurrent_writers (__main__.StressTests.test_concurrent_writers) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 5.066s
+
+OK

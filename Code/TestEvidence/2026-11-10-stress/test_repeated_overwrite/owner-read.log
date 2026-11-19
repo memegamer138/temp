@@ -1,0 +1,28 @@
+User alice
+INPUT
+28 bytes; SHA-256 a7f8203eeb180866b3da17b561d030fa0cc4d1bbe6638f6c67a40c5dc4f5129b
+cat /personal/keep.txt
+exit
+
+
+Elapsed 0.007 seconds
+Exit code 0
+
+STDOUT
+172 bytes; SHA-256 8652a717693db7e108f451b18306d971a1ae0479852e29b7f021940b891ede3d
+Logged in as alice
+Available commands
+cd <directory>
+pwd
+ls
+cat <filename>
+mkdir <directory_name>
+mkfile <filename> <contents>
+share <filename> <username>
+exit
+version-499
+
+
+STDERR
+0 bytes; SHA-256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+

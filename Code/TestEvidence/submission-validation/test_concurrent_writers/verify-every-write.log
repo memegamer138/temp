@@ -1,0 +1,226 @@
+User alice
+INPUT
+3605 bytes; SHA-256 b6781515af82d9d1c05bbdedb9c11478e43d5106d98f828b44a4861a0551ea38
+cat /personal/concurrent/w0_000.txt
+cat /personal/concurrent/w0_001.txt
+cat /personal/concurrent/w0_002.txt
+cat /personal/concurrent/w0_003.txt
+cat /personal/concurrent/w0_004.txt
+cat /personal/concurrent/w0_005.txt
+cat /personal/concurrent/w0_006.txt
+cat /personal/concurrent/w0_007.txt
+cat /personal/concurrent/w0_008.txt
+cat /personal/concurrent/w0_009.txt
+cat /personal/concurrent/w0_010.txt
+cat /personal/concurrent/w0_011.txt
+cat /personal/concurrent/w0_012.txt
+cat /personal/concurrent/w0_013.txt
+cat /personal/concurrent/w0_014.txt
+cat /personal/concurrent/w0_015.txt
+cat /personal/concurrent/w0_016.txt
+cat /personal/concurrent/w0_017.txt
+cat /personal/concurrent/w0_018.txt
+cat /personal/concurrent/w0_019.txt
+cat /personal/concurrent/w0_020.txt
+cat /personal/concurrent/w0_021.txt
+cat /personal/concurrent/w0_022.txt
+cat /personal/concurrent/w0_023.txt
+cat /personal/concurrent/w0_024.txt
+cat /personal/concurrent/w1_000.txt
+cat /personal/concurrent/w1_001.txt
+cat /personal/concurrent/w1_002.txt
+cat /personal/concurrent/w1_003.txt
+cat /personal/concurrent/w1_004.txt
+cat /personal/concurrent/w1_005.txt
+cat /personal/concurrent/w1_006.txt
+cat /personal/concurrent/w1_007.txt
+cat /personal/concurrent/w1_008.txt
+cat /personal/concurrent/w1_009.txt
+cat /personal/concurrent/w1_010.txt
+cat /personal/concurrent/w1_011.txt
+cat /personal/concurrent/w1_012.txt
+cat /personal/concurrent/w1_013.txt
+cat /personal/concurrent/w1_014.txt
+cat /personal/concurrent/w1_015.txt
+cat /personal/concurrent/w1_016.txt
+cat /personal/concurrent/w1_017.txt
+cat /personal/concurrent/w1_018.txt
+cat /personal/concurrent/w1_019.txt
+cat /personal/concurrent/w1_020.txt
+cat /personal/concurrent/w1_021.txt
+cat /personal/concurrent/w1_022.txt
+cat /personal/concurrent/w1_023.txt
+cat /personal/concurrent/w1_024.txt
+cat /personal/concurrent/w2_000.txt
+cat /personal/concurrent/w2_001.txt
+cat /personal/concurrent/w2_002.txt
+cat /personal/concurrent/w2_003.txt
+cat /personal/concurrent/w2_004.txt
+cat /personal/concurrent/w2_005.txt
+cat /personal/concurrent/w2_006.txt
+cat /personal/concurrent/w2_007.txt
+cat /personal/concurrent/w2_008.txt
+cat /personal/concurrent/w2_009.txt
+cat /personal/concurrent/w2_010.txt
+cat /personal/concurrent/w2_011.txt
+cat /personal/concurrent/w2_012.txt
+cat /personal/concurrent/w2_013.txt
+cat /personal/concurrent/w2_014.txt
+cat /personal/concurrent/w2_015.txt
+cat /personal/concurrent/w2_016.txt
+cat /personal/concurrent/w2_017.txt
+cat /personal/concurrent/w2_018.txt
+cat /personal/concurrent/w2_019.txt
+cat /personal/concurrent/w2_020.txt
+cat /personal/concurrent/w2_021.txt
+cat /personal/concurrent/w2_022.txt
+cat /personal/concurrent/w2_023.txt
+cat /personal/concurrent/w2_024.txt
+cat /personal/concurrent/w3_000.txt
+cat /personal/concurrent/w3_001.txt
+cat /personal/concurrent/w3_002.txt
+cat /personal/concurrent/w3_003.txt
+cat /personal/concurrent/w3_004.txt
+cat /personal/concurrent/w3_005.txt
+cat /personal/concurrent/w3_006.txt
+cat /personal/concurrent/w3_007.txt
+cat /personal/concurrent/w3_008.txt
+cat /personal/concurrent/w3_009.txt
+cat /personal/concurrent/w3_010.txt
+cat /personal/concurrent/w3_011.txt
+cat /personal/concurrent/w3_012.txt
+cat /personal/concurrent/w3_013.txt
+cat /personal/concurrent/w3_014.txt
+cat /personal/concurrent/w3_015.txt
+cat /personal/concurrent/w3_016.txt
+cat /personal/concurrent/w3_017.txt
+cat /personal/concurrent/w3_018.txt
+cat /personal/concurrent/w3_019.txt
+cat /personal/concurrent/w3_020.txt
+cat /personal/concurrent/w3_021.txt
+cat /personal/concurrent/w3_022.txt
+cat /personal/concurrent/w3_023.txt
+cat /personal/concurrent/w3_024.txt
+exit
+
+
+Elapsed 0.784 seconds
+Exit code 0
+
+STDOUT
+1920 bytes; SHA-256 2c5cdaf51bf19e1dd4d6ec836fa7016c173dd86b7a7aef960d6d3ce33e6983ff
+Logged in as alice
+Available commands
+cd <directory>
+pwd
+ls
+cat <filename>
+mkdir <directory_name>
+mkfile <filename> <contents>
+share <filename> <username>
+exit
+worker-0-value-0
+worker-0-value-1
+worker-0-value-2
+worker-0-value-3
+worker-0-value-4
+worker-0-value-5
+worker-0-value-6
+worker-0-value-7
+worker-0-value-8
+worker-0-value-9
+worker-0-value-10
+worker-0-value-11
+worker-0-value-12
+worker-0-value-13
+worker-0-value-14
+worker-0-value-15
+worker-0-value-16
+worker-0-value-17
+worker-0-value-18
+worker-0-value-19
+worker-0-value-20
+worker-0-value-21
+worker-0-value-22
+worker-0-value-23
+worker-0-value-24
+worker-1-value-0
+worker-1-value-1
+worker-1-value-2
+worker-1-value-3
+worker-1-value-4
+worker-1-value-5
+worker-1-value-6
+worker-1-value-7
+worker-1-value-8
+worker-1-value-9
+worker-1-value-10
+worker-1-value-11
+worker-1-value-12
+worker-1-value-13
+worker-1-value-14
+worker-1-value-15
+worker-1-value-16
+worker-1-value-17
+worker-1-value-18
+worker-1-value-19
+worker-1-value-20
+worker-1-value-21
+worker-1-value-22
+worker-1-value-23
+worker-1-value-24
+worker-2-value-0
+worker-2-value-1
+worker-2-value-2
+worker-2-value-3
+worker-2-value-4
+worker-2-value-5
+worker-2-value-6
+worker-2-value-7
+worker-2-value-8
+worker-2-value-9
+worker-2-value-10
+worker-2-value-11
+worker-2-value-12
+worker-2-value-13
+worker-2-value-14
+worker-2-value-15
+worker-2-value-16
+worker-2-value-17
+worker-2-value-18
+worker-2-value-19
+worker-2-value-20
+worker-2-value-21
+worker-2-value-22
+worker-2-value-23
+worker-2-value-24
+worker-3-value-0
+worker-3-value-1
+worker-3-value-2
+worker-3-value-3
+worker-3-value-4
+worker-3-value-5
+worker-3-value-6
+worker-3-value-7
+worker-3-value-8
+worker-3-value-9
+worker-3-value-10
+worker-3-value-11
+worker-3-value-12
+worker-3-value-13
+worker-3-value-14
+worker-3-value-15
+worker-3-value-16
+worker-3-value-17
+worker-3-value-18
+worker-3-value-19
+worker-3-value-20
+worker-3-value-21
+worker-3-value-22
+worker-3-value-23
+worker-3-value-24
+
+
+STDERR
+0 bytes; SHA-256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+

@@ -1,0 +1,6 @@
+test_invalid_command_spam (__main__.StressTests.test_invalid_command_spam) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.154s
+
+OK

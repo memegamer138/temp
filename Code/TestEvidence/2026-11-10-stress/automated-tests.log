@@ -1,0 +1,41 @@
+g++ -ICode -ICode/third_party -std=c++17 -Wall -Wextra -Wpedantic -Werror -static Code/tests/schema_test.cpp .build/accounts.o .build/command_shell.o .build/crypto_store.o .build/fs_schema.o .build/storage.o .build/vfs.o -lcrypto -ldl -pthread -o .build/schema_test
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libcrypto.a(libcrypto-lib-dso_dlfcn.o): in function `dlfcn_globallookup':
+(.text+0x1f): warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libcrypto.a(libcrypto-lib-bio_addr.o): in function `BIO_lookup_ex':
+(.text+0xdbc): warning: Using 'getaddrinfo' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libcrypto.a(libcrypto-lib-bio_sock.o): in function `BIO_gethostbyname':
+(.text+0x85): warning: Using 'gethostbyname' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+g++ -ICode -ICode/third_party -std=c++17 -Wall -Wextra -Wpedantic -Werror -static Code/tests/storage_test.cpp .build/accounts.o .build/command_shell.o .build/crypto_store.o .build/fs_schema.o .build/storage.o .build/vfs.o -lcrypto -ldl -pthread -o .build/storage_test
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libcrypto.a(libcrypto-lib-dso_dlfcn.o): in function `dlfcn_globallookup':
+(.text+0x1f): warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libcrypto.a(libcrypto-lib-bio_addr.o): in function `BIO_lookup_ex':
+(.text+0xdbc): warning: Using 'getaddrinfo' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libcrypto.a(libcrypto-lib-bio_sock.o): in function `BIO_gethostbyname':
+(.text+0x85): warning: Using 'gethostbyname' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+g++ -ICode -ICode/third_party -std=c++17 -Wall -Wextra -Wpedantic -Werror -static Code/tests/wrap_test.cpp .build/accounts.o .build/command_shell.o .build/crypto_store.o .build/fs_schema.o .build/storage.o .build/vfs.o -lcrypto -ldl -pthread -o .build/wrap_test
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libcrypto.a(libcrypto-lib-dso_dlfcn.o): in function `dlfcn_globallookup':
+(.text+0x1f): warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libcrypto.a(libcrypto-lib-bio_addr.o): in function `BIO_lookup_ex':
+(.text+0xdbc): warning: Using 'getaddrinfo' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libcrypto.a(libcrypto-lib-bio_sock.o): in function `BIO_gethostbyname':
+(.text+0x85): warning: Using 'gethostbyname' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+python3 -m unittest discover -s Code/tests -p 'test_*.py' -v
+test_atomic_enrollment_and_concurrent_writers (test_auth.AuthenticationTests.test_atomic_enrollment_and_concurrent_writers) ... ok
+test_failed_initialization_can_be_retried (test_auth.AuthenticationTests.test_failed_initialization_can_be_retried) ... ok
+test_initialization_preserves_existing_data (test_auth.AuthenticationTests.test_initialization_preserves_existing_data) ... ok
+test_login_permissions_and_identity (test_auth.AuthenticationTests.test_login_permissions_and_identity) ... ok
+test_registry_and_version_pin_cannot_move_to_another_installation (test_auth.AuthenticationTests.test_registry_and_version_pin_cannot_move_to_another_installation) ... ok
+test_registry_tampering_and_rollback (test_auth.AuthenticationTests.test_registry_tampering_and_rollback) ... ok
+test_reserved_names_preserve_admin (test_auth.AuthenticationTests.test_reserved_names_preserve_admin) ... ok
+test_shell_handoff_and_static_build (test_auth.AuthenticationTests.test_shell_handoff_and_static_build) ... ok
+test_overwrite_commit_failure_and_concurrent_commands (test_vfs.FilesystemTests.test_overwrite_commit_failure_and_concurrent_commands) ... ok
+test_paths_and_names (test_vfs.FilesystemTests.test_paths_and_names) ... ok
+test_permissions_admin_and_live_updates (test_vfs.FilesystemTests.test_permissions_admin_and_live_updates) ... ok
+test_public_key_substitution_and_ciphertext_tampering (test_vfs.FilesystemTests.test_public_key_substitution_and_ciphertext_tampering) ... ok
+test_share_commit_failures (test_vfs.FilesystemTests.test_share_commit_failures) ... ok
+test_share_errors_idempotence_and_collisions (test_vfs.FilesystemTests.test_share_errors_idempotence_and_collisions) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 17.368s
+
+OK
