@@ -1,0 +1,19 @@
+name: Flawfinder scan
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  flawfinder:
+    name: flawfinder
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: flawfinder_scan
+        uses: david-a-wheeler/flawfinder@2.0.19-alpha1
