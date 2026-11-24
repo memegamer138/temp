@@ -10,10 +10,28 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      security-events: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: flawfinder_scan
-        uses: david-a-wheeler/flawfinder@2.0.19-alpha1
+        uses: david-a-wheeler/flawfinder@2.0.20
+        with:
+          arguments: '--sarif ./Code/'
+          output: 'flawfinder_results.sarif'
+
+      - name: Upload SARIF results
+        uses: github/codeql-action/upload-sarif@v3
+        if: always()
+        with:
+          sarif_file: flawfinder_results.sarif
+          category: flawfinder
+
+      - name: Upload Flawfinder report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: flawfinder-results
+          path: flawfinder_results.sarif
